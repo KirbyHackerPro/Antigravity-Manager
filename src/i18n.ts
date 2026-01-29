@@ -12,6 +12,7 @@ import pt from "./locales/pt.json";
 import ru from "./locales/ru.json";
 import ko from "./locales/ko.json";
 import ar from "./locales/ar.json";
+import es from "./locales/es.json";
 
 i18n
     // detect user language
@@ -63,6 +64,15 @@ i18n
             ar: {
                 translation: ar,
             },
+                  es: {
+                              translation: es,
+                  },
+                  "es-MX": {
+                              translation: es,
+                  },
+                  "es-419": {
+                              translation: es,
+                  },
         },
         fallbackLng: "en",
         debug: false, // Set to true for development
