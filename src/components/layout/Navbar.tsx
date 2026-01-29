@@ -107,6 +107,7 @@ function Navbar() {
         { code: 'ko', label: '한국어', short: 'KO' },
         { code: 'ru', label: 'Русский', short: 'RU' },
         { code: 'ar', label: 'العربية', short: 'AR' },
+        { code: 'es', label: 'Español', short: 'ES' },
     ];
 
     const handleLanguageChange = async (langCode: string) => {
